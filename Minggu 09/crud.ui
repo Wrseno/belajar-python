@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1113</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>40</y>
+      <width>321</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Praktikum CRUD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>500</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>570</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>570</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>570</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>570</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>570</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="inputFirstName">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>170</y>
+      <width>811</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="inputLastName">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>220</y>
+      <width>811</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="inputAddress">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>811</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="inputPhone">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>500</y>
+      <width>811</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
